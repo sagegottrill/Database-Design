@@ -1,0 +1,30 @@
+A rich business man has tons of paintings
+he wants to build a system to catalog and
+track where his art is
+
+He lends it to museums all across the world 
+he even wants to see reservations
+
+
+Constraints
+- a painting can only have one artist
+
+Goal of the system
+- track painting reservations for a wealthy man 
+
+Who are the stakeholders
+- owner 
+- museums
+
+
+Top Down Desgin
+
+Entities
+- Painting (name, creation_date, style)
+- Reservation (creation_date, date_from, date_to, accepted)
+- Museum (name, birth_date, email)
+- Artist (name, address, phone_nr, email)
+
+reservation,reservation_detail=administration
+painting,artist=inventory
+musuem=client

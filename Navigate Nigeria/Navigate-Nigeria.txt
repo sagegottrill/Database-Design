@@ -1,0 +1,57 @@
+Driving school
+
+Navigate-Nigeria is a driving school where people can take lessons based across the Nigeria
+
+Every School has instructors on payroll and an inventory of cars, Truck and motocycles for teaching
+
+after a phase of requirements gathering with the initial stake holders
+CEO
+CTO
+BA'S
+Customers
+
+I was able to gather a firm understanding of the firm, its positioning and its growth
+
+Navigate-Nigeria: Core Mission
+Become a household name across Nigeria for learning how to drive
+
+Currently navigate-Nigeria has an outdated website and thier customer acquisition is mostly word of mouth
+
+they want to start gaining marketshare through an online presence
+
+Core Requirements
+-Theres a vehicle inventory for students to rent for the entire training
+-There are employees at every branch
+-There is maintenance for the vehicles 
+-There is an optional exam at the end of your lessons
+-You can only take the exam twice, fail twice and you must take more lessons
+
+Using Top Down - ER-Modelling 
+
+GOAL:
+-To create a data model based on requirements
+
+Requirements
+-High-level requirements
+-User Interviews
+-Data Collection
+-Deep Understanding
+
+ATTRIBUTES
+School:(school_id, street_name, street_nr, postal_code, state, city)
+
+
+Instructor:(teacher_id, first_name, last_name, date_of_birth, hiring_date, school_id)
+
+
+Student:(student_id, first_name, last_name, date_of_birth, school_id)
+
+
+Exam:(student_id, teacher_id, date_taken, passed, lesson_id)
+
+
+Lesson:(lesson_id, date_of_enrollment, package, student_id)  
+
+
+
+
